@@ -40,6 +40,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 - [true402](https://true402.dev) - Machine-native x402 marketplace of pay-per-call stalls on Base (USDC), no account or API key. Token-safety stalls run a real on-chain buy/sell honeypot simulation (state-override eth_call) proving sellability; also DeFi signals, web/SEO audits, and LLM inference.
+- [Brian Booms — Agent Storefront](https://brianbooms.com/agents/) - Independent musician selling 17 digital music products via x402 v1 on Base (USDC): ringtones, lyric book, Deep Focus collections, sample pack, podcast music beds, track leases, game licenses, custom commissions ($4.99–$299). No account or API key; agents earn 10% back in store credit (15% first purchase) plus 5% referral rewards. [Machine-readable catalog](https://brianbooms.com/.well-known/purchase-catalog.json)
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
