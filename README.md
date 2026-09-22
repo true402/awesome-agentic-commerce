@@ -41,6 +41,8 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 - [true402](https://true402.dev) - Machine-native x402 marketplace of pay-per-call stalls on Base (USDC), no account or API key. Token-safety stalls run a real on-chain buy/sell honeypot simulation (state-override eth_call) proving sellability; also DeFi signals, web/SEO audits, and LLM inference.
 
+- [Agent Embassy](https://agent-embassy.fly.dev) - Paid MCP/x402 API services for AI agents: URL verification with signed outcome receipts ($0.15), recovery registration ($1.00), compute-market data ($0.25), research papers ($250). Settled in USDC on Base and Arbitrum via x402. ([skill.md](https://agent-embassy.fly.dev/skill.md) | [x402 discovery](https://agent-embassy.fly.dev/.well-known/x402.json) | [llms.txt](https://agent-embassy.fly.dev/llms.txt))
+
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
 - [Supported Networks](https://docs.cdp.coinbase.com/get-started/supported-networks#x402)
