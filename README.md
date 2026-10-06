@@ -40,6 +40,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [Hedera and the x402 Payment Standard](https://hedera.com/blog/hedera-and-the-x402-payment-standard/) - Hedera ecosystem overview of x402-style programmable payments for applications and AI agents.
 - [CardZero](https://cardzero.ai) - Smart-contract wallet (ERC-4337) for AI agents on Base mainnet, USDC. Buyer-side x402 support via `POST /v1/x402/pay`. Owner-controlled spending rules (per-tx limit, daily cap, whitelist, freeze) enforced on-chain. Also runs first known production deployment of ERC-8004 + ERC-8183.
 - [true402](https://true402.dev) - Machine-native x402 marketplace of pay-per-call stalls on Base (USDC), no account or API key. Token-safety stalls run a real on-chain buy/sell honeypot simulation (state-override eth_call) proving sellability; also DeFi signals, web/SEO audits, and LLM inference.
+- [The Musebook Times Wire](https://x402.bankr.bot/0x307f526568fd95ce324ec82dff712d09ad33676c/wire) - Structured events wire as JSON: timestamped, receipt-backed history of the musebook town (editions, token launches, treasury moves, corrections). Bare GET returns the 402; USDC on Base via bankr x402.
 
 ### Facilitators & Networks
 - [Coinbase Hosted Facilitator (Base)](https://docs.cdp.coinbase.com/x402#offload-your-infra)
